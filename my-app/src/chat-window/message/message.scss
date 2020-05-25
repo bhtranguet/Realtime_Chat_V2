@@ -1,0 +1,16 @@
+.message-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    .user {
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid;
+        box-sizing: border-box;
+        width: 80px;
+        height: 40px;
+        margin-right: 16px;
+    }
+}

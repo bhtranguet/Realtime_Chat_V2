@@ -1,0 +1,19 @@
+.chat-window {
+    border: 1px solid;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    .left {
+        width: 30%;
+        border-right: 1px solid;
+    }
+    .right {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    ul {
+        padding: 0;
+    }
+}
